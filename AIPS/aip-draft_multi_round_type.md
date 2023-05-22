@@ -19,7 +19,7 @@ As a result, we want to improve the current round deployment process to allow ne
 
 ## Goals
 
-- Create a registry of allowed round implementation in the `RoundFactory` contract were each implementation will be identified by a type.
+- Create a registry of allowed round implementation in the `RoundFactory` contract where each implementation will be identified by a type.
 - Deploy multiple types of rounds from a single factory contract, based on a given type identifier.
 - Make the `IRoundImplementation` a more generic interface.
 
